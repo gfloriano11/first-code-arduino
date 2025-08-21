@@ -41,6 +41,7 @@ void loop()
   analogWrite(vrd_pessoa, 255);
   tone(bzz, 800, 300);
   delay(750);
+  analogWrite(vml_pessoa, 255);
   analogWrite(vrd_pessoa, 0);
   analogWrite(vml, 255);
   analogWrite(azl, 0);
@@ -50,4 +51,5 @@ void loop()
   analogWrite(azl, 0);
   analogWrite(vrd, 255);
   delay(5000);
+  analogWrite(vml_pessoa, 0);
 }
